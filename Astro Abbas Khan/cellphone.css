@@ -1,6 +1,6 @@
-@media screen and (max-width:768px) {
-    /* header css */
-header{
+@media screen and (max-width: 768px) {
+  /* header css */
+  header {
     width: 100%;
     height: 5vh;
     background-color: #030423;
@@ -10,91 +10,88 @@ header{
     position: fixed;
     top: 0px;
     left: 0px;
-}
-.logo{
+  }
+  .logo {
     display: none;
-}
+  }
 
-nav{
+  nav {
     width: 95%;
     height: 95%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
-}
-nav a{
+    gap: 1rem;
+  }
+  nav a {
     font-size: 0.8rem;
     text-decoration: none;
-    color: #3FA9F5;
-}
-.hero{
+    color: #3fa9f5;
+  }
+  .hero {
     width: 100%;
     height: 100vh;
-}
-.hero-padding{
+  }
+  .hero-padding {
     width: 90%;
     height: 90%;
     flex-direction: column;
-}
-.hero-intro{
+  }
+  .hero-intro {
     width: 100%;
     height: 60%;
-    
-}
-.hero-intro span{
+  }
+  .hero-intro span {
     width: 100%;
     height: 100%;
-}
-.hero-intro h1{
+  }
+  .hero-intro h1 {
     font-size: 1.2rem;
-    color:#ffffff;
+    color: #ffffff;
     font-weight: 400;
-}
-.hero-intro h2{
+  }
+  .hero-intro h2 {
     font-size: 1.5rem;
-}
-.hero-intro p{
+  }
+  .hero-intro p {
     font-size: 1rem;
     color: #ffffff;
     line-height: 1.8rem;
-}
-.hero-img{
+  }
+  .hero-img {
     width: 100%;
     height: 40%;
-}
-.hero-img img{
+  }
+  .hero-img img {
     width: 60%;
-}
-/* hero ended */
+  }
+  /* hero ended */
 
-/* skills started */
-.skills{
+  /* skills started */
+  .skills {
     width: 100%;
     height: 200vh;
-}
-.skills-heading{
+  }
+  .skills-heading {
     width: 100%;
     height: 10%;
-}
-.skills-heading h3{
+  }
+  .skills-heading h3 {
     font-size: 1.5rem;
-}
-.skills-heading p{
+  }
+  .skills-heading p {
     font-size: 0.8rem;
-}
-.skills-glry{
+  }
+  .skills-glry {
     width: 100%;
     height: 90%;
     flex-direction: column;
-}
-.skills-card{
+  }
+  .skills-card {
     width: 50%;
     height: 15%;
-    
-    
-}
-.skills-card-icon{
+  }
+  .skills-card-icon {
     width: 80%;
     height: 80%;
     background-color: #9570fa;
@@ -104,60 +101,59 @@ nav a{
     justify-content: center;
     gap: 1rem;
     border-radius: 1rem;
-}
-.skills-card img{
+  }
+  .skills-card img {
     width: 50%;
-    
-}
-.skills-card span{
+  }
+  .skills-card span {
     color: #ffffff;
-}
-.skills-card h4{
+  }
+  .skills-card h4 {
     color: white;
-}
-/* skills Ended */
+  }
+  /* skills Ended */
 
-/* services started */
-.services{
+  /* services started */
+  .services {
     width: 100%;
     height: 200vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #1b1d57;
-}
-.services-padding{
+  }
+  .services-padding {
     width: 95%;
     height: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.services-heading{
+  }
+  .services-heading {
     width: 100%;
     height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.services-heading h3{
+  }
+  .services-heading h3 {
     font-size: 2.5rem;
     font-weight: 900;
-    background-image: linear-gradient(to right,#9570fa, #d6cced);
+    background-image: linear-gradient(to right, #9570fa, #d6cced);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-.services-glry{
+  }
+  .services-glry {
     width: 100%;
     height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}
-.services-card{
+  }
+  .services-card {
     width: 85%;
     height: 24%;
     padding: 0.9rem;
@@ -168,84 +164,81 @@ nav a{
     gap: 1rem;
     background-color: #9570fa;
     border-radius: 1rem;
-}
-.services-card img{
+  }
+  .services-card img {
     width: 30%;
-}
-.services-card h4{
+  }
+  .services-card h4 {
     font-size: 1.5rem;
     text-align: center;
     color: #ffffff;
-}
-.services-card ul{
+  }
+  .services-card ul {
     font-size: 0.8rem;
     color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 0.5rem;
-}
+  }
 
-.portfolio{
+  .portfolio {
     width: 100%;
     height: 250vh;
     background-color: #1b1d57;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.portfolio-padding{
+  }
+  .portfolio-padding {
     width: 90%;
     height: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.portfolio-heading{
+  }
+  .portfolio-heading {
     width: 100%;
     height: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.portfolio-heading h3{
+  }
+  .portfolio-heading h3 {
     font-size: 2.5rem;
     font-weight: 900;
-    background-image: linear-gradient(to right,#9570fa, #d6cced);
+    background-image: linear-gradient(to right, #9570fa, #d6cced);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-.portfolio-glry{
+  }
+  .portfolio-glry {
     width: 100%;
     height: 90%;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-    
-}
-.fst-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .fst-row {
     width: 95%;
     height: 50%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-}
-.scnd-row{
+  }
+  .scnd-row {
     width: 95%;
     height: 50%;
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: space-around;
+  }
 
-}
-
-
-.portfolio-card{
+  .portfolio-card {
     width: 90%;
     height: 45%;
     background-color: #ffffff;
@@ -254,8 +247,8 @@ nav a{
     justify-content: center;
     background-position: center;
     border-radius: 1rem;
-}
-.portfolio-card-overlay{
+  }
+  .portfolio-card-overlay {
     opacity: 0%;
     width: 100%;
     height: 100%;
@@ -265,38 +258,37 @@ nav a{
     align-items: center;
     pointer-events: auto;
     border-radius: 1rem;
-}
-.portfolio-card-overlay:hover{
+  }
+  .portfolio-card-overlay:hover {
     opacity: 100%;
-}
-.portfolio-card-overlay a{
-    
+  }
+  .portfolio-card-overlay a {
     padding: 0.8rem 1.6rem;
     background-color: #3fa9f594;
     color: #030423;
     text-decoration: none;
     font-size: 1.2rem;
     border-radius: 1rem;
-}
-/* portfolio ended */
+  }
+  /* portfolio ended */
 
-/* about me starts */
-.about{
+  /* about me starts */
+  .about {
     width: 100%;
     height: 80vh;
     background-color: #1b1d57;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.about-padding{
+  }
+  .about-padding {
     width: 90%;
     height: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.about-intro{
+  }
+  .about-intro {
     width: 90%;
     height: 90%;
     display: flex;
@@ -305,65 +297,63 @@ nav a{
     justify-content: center;
     gap: 1.2rem;
     color: #ffffff;
-}
-.about-intro span{
+  }
+  .about-intro span {
     color: #b79cff;
-}
-.about-intro h3{
+  }
+  .about-intro h3 {
     font-size: 2.5rem;
     font-weight: 900;
-    background-image: linear-gradient(to right,#9570fa, #eae5f4);
+    background-image: linear-gradient(to right, #9570fa, #eae5f4);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
-}
-.about-intro p{
+  }
+  .about-intro p {
     font-size: 1.2rem;
     line-height: 1.5rem;
-}
-.about-img{
+  }
+  .about-img {
     display: none;
-    
-}
-.about-img img{
+  }
+  .about-img img {
     width: 50%;
-}
-/* about me ended */
+  }
+  /* about me ended */
 
-/* contact me started */
-.contact{
+  /* contact me started */
+  .contact {
     width: 100%;
     height: 75vh;
     background-color: #1b1d57;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.contact-padding{
+  }
+  .contact-padding {
     width: 90%;
     height: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.contact-heading{
+  }
+  .contact-heading {
     width: 100%;
     height: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.contact-heading h3{
+  }
+  .contact-heading h3 {
     font-size: 2rem;
     font-weight: 900;
-    background-image: linear-gradient(to right,#9570fa, #d6cced);
+    background-image: linear-gradient(to right, #9570fa, #d6cced);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-.contact-glry{
+  }
+  .contact-glry {
     width: 100%;
     height: 90%;
     display: flex;
@@ -371,8 +361,8 @@ nav a{
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
-}
-.contact-card{
+  }
+  .contact-card {
     background-color: #9570fa;
     border-radius: 10px;
     width: 90%;
@@ -382,28 +372,27 @@ nav a{
     align-items: center;
     justify-content: center;
     gap: 1rem;
-}
-.contact-card img{
+  }
+  .contact-card img {
     width: 10%;
-}
-.contact-card p{
+  }
+  .contact-card p {
     color: #ffffff;
     font-size: 1.2rem;
-}
-/* conatct ended */
+  }
+  /* conatct ended */
 
+  /* footer started */
 
-/* footer started */
-
-footer{
+  footer {
     width: 100%;
     height: 25vh;
     background-color: #030423;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.footer-padding{
+  }
+  .footer-padding {
     width: 95%;
     height: 80%;
     display: flex;
@@ -411,25 +400,24 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-.footer-card{
+  }
+  .footer-card {
     width: 100%;
     /* height: 30%; */
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    
-}
-.footer-card span{
+  }
+  .footer-card span {
     color: #9570fa;
-}
+  }
 
-.footer-card img{
+  .footer-card img {
     width: 10%;
-}
-.footer-card p{
-  color: #ffffff;
-  line-height: 1.2rem;
-}
+  }
+  .footer-card p {
+    color: #ffffff;
+    line-height: 1.2rem;
+  }
 }
